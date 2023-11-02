@@ -5,6 +5,7 @@ pipeline {
         stage('checkout') {
             steps {
                 echo 'Hello World'
+
             }
         }
 		stage('build') {
